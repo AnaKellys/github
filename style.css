@@ -1,0 +1,69 @@
+:root {
+  font-size: 62.5%;
+}
+
+:root {
+  --global-border-radios: solid 1px white;
+  --font-size: 2.0rem;
+}
+
+/* {
+  border: var(--global-border-radios);
+} */
+/* var(--control-medium-gap, 0.5rem); */
+
+
+.first {
+  display: flex;
+  /* flex-direction:; */
+  gap: 2.0rem;
+
+}
+
+button {
+  border: var(--global-border-radios);
+  border-radius: 3px;
+  /* margin: 0.5rem; */
+  background-color: black;
+  padding: 0.9rem;
+  
+  /* display: inline;
+  align-items: center; */
+}
+
+#logo {
+  width: 4.0rem;
+}
+
+
+
+.image {
+  width: 1.8rem;
+  display: flex;
+  align-items: center;
+}
+
+body {
+  font-size: var(--font-size);
+}
+
+/* #teste {
+  display: flex;
+  flex-direction: column;
+  width: 0.8rem;
+} */
+
+ul {
+  display: flex;
+  /* flex-direction: column; */
+  list-style: none;
+  color: white;
+  text-decoration: none;
+  gap: 1.8rem;
+  font-size: var(--font-size);
+}
+
+li a {
+  text-decoration: none;
+  color: rgb(142, 172, 192);
+}
