@@ -9,17 +9,18 @@
   <title>AnaKellys/livraria</title>
 
   <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="styles/header.css"> -->
+
 
 </head>
 
 <body>
 
   <header>
-
     <div class="first">
 
       <div class="one">
-        <button id="three"><img src="img/three.svg" alt="três"></button>
+        <button id="menu"><img src="img/three.svg" alt="três"></button>
         <img id="logo" src="img/github.svg" alt="Logo">
         <p>AnaKellys</p>
         <p>/</p>
@@ -28,22 +29,28 @@
 
 
       <div class="two">
-        
-        <div class="aqui">
-          <button class="testeB"><img src="img/lupa.svg" alt="Lupa"></button>
-          
-          <!-- <label for="aqui-input" style="color: white;">Button</label> -->
-          <input id="aqui-input" class="aqui-input" type="text" placeholder="Type / to search">
-
-          <button class="button-direito testeB"><img src="img/direita.svg" alt=""></button>
+        <div class="three">
+          <button class="search"><img src="img/lupa.svg" alt="Lupa"></button>
+          <!-- outra opção seria: <label for="aqui-input" style="color: white;">Button</label> -->
+          <input id="first-input" type="text" placeholder="Type / to search">
+          <div class="arrow">
+            <div class="space-bar">
+              <div class="vertical-bar">&vert;</div>
+              <button class="right-button"><img src="img/direita.svg" alt=""></button>
+            </div>
+          </div>
         </div>
 
-        <button class="on"><div><img src="img/mais.svg" alt="mais"><img src="img/seta.svg" alt="seta"></div></button>
-        <button class="on"><img src="img/Frame.svg" alt="ponto"></button>
-        <button class="on"><img src="img/Pull.svg" alt="pull"></button>
-        <button class="on"><img src="img/caixa.svg" alt="caixa"></button>
+        <div class="vertical-bar">&vert;</div>
 
-        <button class="foto" ><img src="img/foto.png" alt="user"></button>
+        <button class="button">
+          <div><img src="img/mais.svg" alt="mais"><img src="img/seta.svg" alt="seta"></div>
+        </button>
+        <button class="button"><img src="img/Frame.svg" alt="ponto"></button>
+        <button class="button"><img src="img/Pull.svg" alt="pull"></button>
+        <button class="button"><img src="img/caixa.svg" alt="caixa"></button>
+
+        <button class="foto"><img src="img/foto.png" alt="user"></button>
       </div>
     </div>
 
@@ -53,7 +60,7 @@
       <nav>
         <ul>
           <li class="space"><a href="#"><img src="img/Vector (1).svg" alt="seta">
-              <p>Code</p>
+              <p><strong>Code</strong></p>
             </a></li>
           <li class="space"><a href="#"><img src="img/Frame.svg" alt="seta">
               <p>Issues</p>
@@ -88,13 +95,87 @@
 
   <main>
 
-    <div class="main" >
+    <div class="main">
       <p><strong>livraria</strong></p>
       <p>public</p>
     </div>
 
 
+
+    <h2>HTML Table</h2>
+
+    <table>
+      <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+      </tr>
+      <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+      </tr>
+      <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+      </tr>
+      <tr>
+        <td>Ernst Handel</td>
+        <td>Roland Mendel</td>
+        <td>Austria</td>
+      </tr>
+      <tr>
+        <td>Island Trading</td>
+        <td>Helen Bennett</td>
+        <td>UK</td>
+      </tr>
+      <tr>
+        <td>Laughing Bacchus Winecellars</td>
+        <td>Yoshi Tannamuri</td>
+        <td>Canada</td>
+      </tr>
+      <tr>
+        <td>Magazzini Alimentari Riuniti</td>
+        <td>Giovanni Rovelli</td>
+        <td>Italy</td>
+      </tr>
+    </table>
+
+
+
+
+
+
+
   </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

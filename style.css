@@ -2,12 +2,11 @@
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-
 }
 
 :root {
   font-size: 62.5%;
-  --border-color: rgba(41, 44, 46, 0.7);
+  --border-color: #30363d;
   --global-border: solid 0.01px var(--border-color);
   --border-radius: 7px;
   --font-size: 1.4rem;
@@ -22,12 +21,9 @@ body {
 
 header {
   background-color: #010409;
+  /* 'box-shadow' adicionar sombras aos elementos. */
   box-shadow: 0px 1px var(--border-color);
 }
-
-
-/* cor icons #a0988c */
-
 
 /* Primeira div no header*/
 .first {
@@ -35,12 +31,10 @@ header {
   align-items: center;
   justify-content: space-between;
 
-  /* gap: 1.5rem; */
   padding: 1.6rem;
 }
 
-
-
+/* Primeiro filho */
 .one {
   display: flex;
   align-items: center;
@@ -48,75 +42,99 @@ header {
   color: var(--font-color)
 }
 
-.two {
+/* button menu */
+#menu {
+  border: var(--global-border);
+  border-radius: var(--border-radius);
+  background-color: rgba(0, 0, 0, 0);
+  padding: 1.0rem;
+  width: 3.2rem;
+  height: 3.2rem;
   display: flex;
-  
   align-items: center;
-  gap: 1.3rem;
+  justify-content: center;
 }
 
-.aqui {
-  /* border: 1px solid red; */
+/* segundo filho */
+.two {
   display: flex;
-  gap: 0.6rem;
+  align-items: center;
+  gap: 1.0rem;
+}
 
+/* terceiro filho */
+.three {
+  display: flex;
+  width: 35.0rem;
   padding: 5px;
   border: var(--global-border);
   border-radius: var(--border-radius);
-
 }
 
-.on:hover {
-  background-color: var(--border-color);
-  border-radius: var(--border-radius);
-}
-
-
-.button-direito:hover{
-   background-color: var(--border-color);
-   border-radius: calc(var(--border-radius) - 3px);
-}
-
-/* display: none */
-
-.aqui-input {
-  /* border: 1px solid red; */
-  background-color: #010409;
-  border: none;
-  color: white;
-  padding: 0 5px;
-  /* border: var(--global-border); */
-}
-
-.aqui-input:focus {
+#first-input:focus {
   outline: none;
 }
 
-.testeB {
-  background-color: black;
-  /* border-radius: var(--border-radius); */
-  /* padding: 1.0rem 20.0rem 1.0rem 0.8rem; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* align-items: center; */
-  /* gap: 1.0rem; */
-  /* border: 1px solid red; */
+#first-input {
+  background-color: #00000000;
+  border: none;
+  color: white;
+  padding: 0 5px;
+}
+
+/* procurar */
+.search {
   border: none;
   cursor: pointer;
-
   padding: 3px;
-
+  background-color: rgba(0, 0, 0, 0);/
 }
 
-.testeB img {
+.search img {
   width: 1.4rem;
   height: 100%;
-  /* border: 1px solid red; */
-
 }
 
-.on {
+.arrow {
+  display: flex;
+  justify-content: end !important;
+  flex: 1;
+}
+
+/* barra de espaço */
+.space-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* barra vertical */
+.vertical-bar {
+  color: var(--border-color);
+  height: 19px;
+}
+
+.right-button {
+  padding: 5px;
+}
+
+.right-button:hover {
+  background-color: var(--border-color);
+  border-radius: calc(var(--border-radius) - 3px);
+  cursor: pointer;
+}
+
+
+
+
+
+.button:hover {
+  background-color: var(--border-color);
+  border-radius: var(--border-radius);
+  cursor: pointer;
+}
+
+.button {
   background-color: black;
   border: var(--global-border);
   border-radius: var(--border-radius);
@@ -124,25 +142,45 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 3.4rem;
-
+  height: 3.2rem;
 }
 
-.on div {
+.button div {
   display: flex;
   gap: 0.7rem;
 }
 
-.on img {
+.button img {
   width: 1.5rem;
 }
+
+
+
+
+
+
+
+/* display: none */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 button {
   background-color: black;
   border: none;
   display: flex;
   align-items: center;
-  
+
 }
 
 .foto img {
@@ -151,27 +189,12 @@ button {
   border-radius: 50%;
 }
 
-#three {
-  border: var(--global-border);
-  border-radius: var(--border-radius);
-  background-color: black;
-  padding: 1.0rem;
-  width: 3.2rem;
-  height: 3.2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  /* display: inline;
-  align-items: center; */
-}
 
 
 
 
-#logo {
-  width: 3.2rem;
-}
+
+
 
 .space img {
   width: 1.6rem;
@@ -185,17 +208,21 @@ button {
   display: flex;
 }
 
+li {
+  padding: 0.5rem 0.2rem;
+
+}
+
 li:hover {
   background-color: var(--border-color);
-  border-radius: calc(var(--border-radius) - 3px);
-  padding: 0.5rem 0.2rem;
+  border-radius: calc(var(--border-radius) - 2px);
 }
 
 ul {
   display: flex;
   gap: 0.9rem;
 
-  padding-bottom: 1.5rem;
+  /* padding: 1.5rem 0; */
 
   list-style: none;
   color: white;
@@ -213,23 +240,43 @@ li a {
 }
 
 
+
 .second {
+
+  /* padding: 0 1.6rem; */
+
   /* padding: 1.6rem - 0.5rem; */
 
   /* padding: 0.5rem 0.2rem; */
 }
 
 
+nav {
+  padding: 0 1.5rem 1.3rem;
+}
 
-/* .main p {
+
+
+.main p {
   border: var(--global-border);
   color: #cbdae6;
-} */
+}
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+/* color: #848d97; */
 
 
 
