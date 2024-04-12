@@ -1,69 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+}
+
 :root {
   font-size: 62.5%;
-}
-
-:root {
-  --global-border-radios: solid 1px white;
-  --font-size: 2.0rem;
-}
-
-/* {
-  border: var(--global-border-radios);
-} */
-/* var(--control-medium-gap, 0.5rem); */
-
-
-.first {
-  display: flex;
-  /* flex-direction:; */
-  gap: 2.0rem;
-
-}
-
-button {
-  border: var(--global-border-radios);
-  border-radius: 3px;
-  /* margin: 0.5rem; */
-  background-color: black;
-  padding: 0.9rem;
-  
-  /* display: inline;
-  align-items: center; */
-}
-
-#logo {
-  width: 4.0rem;
-}
-
-
-
-.image {
-  width: 1.8rem;
-  display: flex;
-  align-items: center;
+  --border-color: rgba(41, 44, 46, 0.7);
+  --global-border: solid 0.01px var(--border-color);
+  --border-radius: 7px;
+  --font-size: 1.4rem;
+  --font-color: #cbdae6;
+  --font-family: sans-serif;
 }
 
 body {
   font-size: var(--font-size);
+  background-color: #0a0e12;
 }
 
-/* #teste {
+header {
+  background-color: #010409;
+  box-shadow: 0px 1px var(--border-color);
+}
+
+
+/* cor icons #a0988c */
+
+
+/* Primeira div no header*/
+.first {
   display: flex;
-  flex-direction: column;
-  width: 0.8rem;
-} */
+  align-items: center;
+  justify-content: space-between;
+
+  /* gap: 1.5rem; */
+  padding: 1.6rem;
+}
+
+
+
+.one {
+  display: flex;
+  align-items: center;
+  gap: 1.3rem;
+  color: var(--font-color)
+}
+
+.two {
+  display: flex;
+  
+  align-items: center;
+  gap: 1.3rem;
+}
+
+.aqui {
+  /* border: 1px solid red; */
+  display: flex;
+  gap: 0.6rem;
+
+  padding: 5px;
+  border: var(--global-border);
+  border-radius: var(--border-radius);
+
+}
+
+.on:hover {
+  background-color: var(--border-color);
+  border-radius: var(--border-radius);
+}
+
+
+.button-direito:hover{
+   background-color: var(--border-color);
+   border-radius: calc(var(--border-radius) - 3px);
+}
+
+/* display: none */
+
+.aqui-input {
+  /* border: 1px solid red; */
+  background-color: #010409;
+  border: none;
+  color: white;
+  padding: 0 5px;
+  /* border: var(--global-border); */
+}
+
+.aqui-input:focus {
+  outline: none;
+}
+
+.testeB {
+  background-color: black;
+  /* border-radius: var(--border-radius); */
+  /* padding: 1.0rem 20.0rem 1.0rem 0.8rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* align-items: center; */
+  /* gap: 1.0rem; */
+  /* border: 1px solid red; */
+  border: none;
+  cursor: pointer;
+
+  padding: 3px;
+
+}
+
+.testeB img {
+  width: 1.4rem;
+  height: 100%;
+  /* border: 1px solid red; */
+
+}
+
+.on {
+  background-color: black;
+  border: var(--global-border);
+  border-radius: var(--border-radius);
+  padding: 1.0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.4rem;
+
+}
+
+.on div {
+  display: flex;
+  gap: 0.7rem;
+}
+
+.on img {
+  width: 1.5rem;
+}
+
+button {
+  background-color: black;
+  border: none;
+  display: flex;
+  align-items: center;
+  
+}
+
+.foto img {
+  width: 3.2rem;
+  height: 100%;
+  border-radius: 50%;
+}
+
+#three {
+  border: var(--global-border);
+  border-radius: var(--border-radius);
+  background-color: black;
+  padding: 1.0rem;
+  width: 3.2rem;
+  height: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* display: inline;
+  align-items: center; */
+}
+
+
+
+
+#logo {
+  width: 3.2rem;
+}
+
+.space img {
+  width: 1.6rem;
+}
+
+
+
+
+
+.space {
+  display: flex;
+}
+
+li:hover {
+  background-color: var(--border-color);
+  border-radius: calc(var(--border-radius) - 3px);
+  padding: 0.5rem 0.2rem;
+}
 
 ul {
   display: flex;
-  /* flex-direction: column; */
+  gap: 0.9rem;
+
+  padding-bottom: 1.5rem;
+
   list-style: none;
   color: white;
   text-decoration: none;
-  gap: 1.8rem;
   font-size: var(--font-size);
 }
 
 li a {
   text-decoration: none;
-  color: rgb(142, 172, 192);
+  color: var(--font-color);
+  display: flex;
+  gap: 0.9rem;
+  align-items: center;
+  padding: 0 8px;
 }
+
+
+.second {
+  /* padding: 1.6rem - 0.5rem; */
+
+  /* padding: 0.5rem 0.2rem; */
+}
+
+
+
+/* .main p {
+  border: var(--global-border);
+  color: #cbdae6;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  font-size: 1.2rem;
+  color: gray;
+  padding: 6.4rem 1.6rem 4.0rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: gray;
+}
+
+
+/* 
+#min {
+  width: rem;
+} */
