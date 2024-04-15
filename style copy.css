@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+:root {
+  font-size: 62.5%;
+  --border-color: #30363d;
+  --global-border: solid 0.01px var(--border-color);
+  --border-radius: 7px;
+  --font-size: 1.4rem;
+  --font-color: #cbdae6;
+  --font-family: sans-serif;
+}
+
+body {
+  font-size: var(--font-size);
+  background-color: #0a0e12;
+}
+
+
+
+
+
+
+
+
+.main p {
+  border: var(--global-border);
+  color: #cbdae6;
+}
+
+
+
+/* display: none */
+
+
+
+
+
+
+
+
+
+
+
+
+/* color: #848d97; */
+
+
+
+
+
+
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  font-size: 1.2rem;
+  color: gray;
+  padding: 6.4rem 1.6rem 4.0rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: gray;
+}
+
+
+/* 
+#min {
+  width: rem;
+} */
