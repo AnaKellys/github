@@ -64,45 +64,18 @@ h1 a:hover {
   line-height: 1.5rem;
 }
 
-
-
-/* .main-two {
-  border: 1px red solid;
-  display: flex;
-  align-items: center;
-} */
-
-
-
-
-/* .button-main button {
-  display: flex;
-  align-items: center;
-  border: var(--global-border);
-  padding: 3px 12px;
-  gap: 0.8rem;
-}
-
-
-
-.main-two {
-  display: flex;
-  
-  /* border: 1px red solid; */
-
-
-.button-main button {
+.button-main {
   border: var(--global-border);
   background-color: #21262d;
-  color: #c9d1d9;
+  color: var(--option);
   gap: 0.8rem;
   border-radius: var(--border-radius);
-  padding: 3px 12px;
+  padding: 4px 12px;
   font-size: 1.2rem;
   cursor: pointer;
 }
 
-.button-main button:hover {
+.button-main:hover {
   background-color: #292e36;
 }
 
@@ -118,7 +91,7 @@ h1 a:hover {
   background-color: #21262d;
   display: flex;
   align-items: center;
-  color: #c9d1d9;
+  color: var(--option);
   gap: 0.8rem;
   /* border-radius: var(--border-radius); */
   padding: 4px 8px;
@@ -132,11 +105,12 @@ h1 a:hover {
 
 .button-together {
   display: flex;
-  padding: 1px 0 1px 7px;
   font-size: 1.2rem;
 }
 
-
+.pin{
+  padding: 0.5rem 1.5rem;
+}
 
 .button-right {
   border-bottom-right-radius: var(--border-radius);
@@ -148,28 +122,22 @@ h1 a:hover {
   border-top-left-radius: var(--border-radius);
 }
 
-.main-one span {
-  padding: 6px;
-  background-color: #30363d;
-}
-
 .main-two {
   display: flex;
   align-items: center;
   gap: 0.8rem;
 }
 
-.button-main {
-  display: flex;
-  align-items: center;
-  gap: 0.8rem;
-}
 
 
 .main-two span {
   padding: 2px;
-  border-radius: var(--border-radius);
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
   border: white;
+  background-color: #30363d;
+
 }
 
 
@@ -183,3 +151,142 @@ h1 a:hover {
   border-radius: 50%;
 
 } */
+
+
+
+
+
+/* button-center */
+
+
+.button-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-one-button {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.main-one-button button {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  color: var(--color);
+  /* border: var(--global-border); */
+  padding: 0.7rem 1.3rem;
+  border-radius: var(--border-radius);
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.main-one-button button:hover {
+  background-color: #292e36;
+}
+
+.single {
+  background-color: #21262d;
+  border: var(--global-border);
+}
+
+.main-one-button span {
+  color: white;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Aqui teste */
+
+.main-input {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-input {
+  display: flex;
+  width: 25.0rem;
+  height: 2.5rem;
+  padding: 5px;
+  border: var(--global-border);
+  border-radius: var(--border-radius);
+}
+
+.input:focus {
+  outline: none;
+}
+
+.input {
+  background-color: #00000000;
+  color: white;
+  border: none;
+  padding: 0 5px;
+}
+
+/* procurar */
+.search-main {
+  border: none;
+  padding: 3px;
+  background-color: rgba(0, 0, 0, 0);/
+}
+
+.search-main img {
+  width: 1.4rem;
+  height: 100%;
+}
+
+.arrow {
+  display: flex;
+  justify-content: end !important;
+  flex: 1;
+}
+
+/* barra de espaço */
+.space-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* barra vertical */
+.vertical-bar {
+  color: var(--border-color);
+  height: 19px;
+}
+
+.right-button {
+  padding: 5px;
+}

@@ -93,8 +93,6 @@
 
   <main>
 
-
-
     <div class="main-one">
       <div class="user-main">
         <img src="assets/img/foto.png" alt="foto">
@@ -105,14 +103,13 @@
 
 
       <div class="main-two">
-        <div class="button-main">
-          <button><img src="assets/img/pin.svg" alt="pin">Pin</button>
-          <button><img src="assets/img/eye.svg" alt="ver">Unwatch <span>1</span> <img src="assets/img/seta.svg"
-              alt="seta"></button>
-        </div>
+        <button class="button-main pin"><img src="assets/img/pin.svg" alt="pin">Pin</button>
+        <button class="button-main"><img src="assets/img/eye.svg" alt="ver">Unwatch <span>1</span> <img
+            src="assets/img/seta.svg" alt="seta"></button>
 
         <div class="button-together">
-          <button disabled class="button-left"><img src="assets/img/symbol.svg" alt="symblo">Fork</button>
+          <button disabled class="button-left"><img src="assets/img/symbol.svg" alt="symblo">Fork
+            <span>0</span></button>
           <button class="button-right"><img src="assets/img/seta.svg" alt=""></button>
         </div>
 
@@ -128,15 +125,28 @@
     <div class="button-center">
 
       <div class="main-one-button">
-        <button><img src="assets/img/main.svg" alt="main">main</button>seta aqui
-        <button><img src="assets/img/main.svg" alt="branch"><strong>1</strong> Branch</button>
-        <button><img src="assets/img/main.svg" alt="Tags"><strong>0</strong> Tags</button>
+        <button class="single" ><img src="assets/img/main.svg" alt="main">main<img src="assets/img/seta.svg" alt=""></button>
+        <button><img src="assets/img/main.svg" alt="branch"><span>1</span>Branch</button>
+        <button><img src="assets/img/tag.svg" alt="Tags"><span>0</span> Tags</button>
       </div>
 
-      <div class="main-two-button">
-        <input type="text">
 
-        <button>Add file seta</button>
+
+
+      <div class="main-input">
+          <button class="search-main"><img src="assets/img/lupa.svg" alt="Lupa"></button>
+          <input class="input" type="text" placeholder="Go to file">
+
+          <div class="arrow">
+            <div class="space-bar">
+              <button class="right-button">t</button>
+            </div>
+          </div>
+    
+
+
+
+        <button>Add file<img src="assets/img/seta.svg" alt="seta"></button>
         <button> "> Code seta</button>
       </div>
 
@@ -199,6 +209,10 @@
     </div>
 
   </main>
+
+
+
+
 
 
 
