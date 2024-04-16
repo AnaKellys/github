@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+:root {
+  font-size: 62.5%;
+  --border-color: #30363d;
+  --global-border: solid 0.01px var(--border-color);
+  --border-radius: 7px;
+  --font-size: 1.4rem;
+  --font-color: #cbdae6;
+  --color-one: #e6edf3;
+  --link-color: #4493f8;
+  --color: #848d97;
+  --font-family: sans-serif;
+}
+
+body {
+  font-size: var(--font-size);
+  background-color: #0a0e12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* display: none */
