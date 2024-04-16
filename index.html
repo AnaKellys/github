@@ -5,12 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" href="img/github.svg">
+  <link rel="icon" href="assets/img/github.svg">
   <title>AnaKellys/livraria</title>
 
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="styles/header.css">
-
+  <link rel="stylesheet" href="assets/styles/style.css">
+  <link rel="stylesheet" href="assets/styles/header.css">
+  <link rel="stylesheet" href="assets/styles/main.css">
+  <!-- link direita -->
+  <link rel="stylesheet" href="assets/styles/footer.css">
 
 </head>
 
@@ -20,21 +22,21 @@
     <div class="first">
 
       <div class="one">
-          <button id="menu"><img src="img/three.svg" alt="três"></button>
-          <img id="logo" src="img/github.svg" alt="Logo">
+        <button id="menu"><img src="assets/img/three.svg" alt="três"></button>
+        <img id="logo" src="assets/img/github.svg" alt="Logo">
         <p>AnaKellys</p> / <p><strong>livraria</strong></p>
       </div>
 
 
       <div class="two">
         <div class="three">
-          <button class="search"><img src="img/lupa.svg" alt="Lupa"></button>
+          <button class="search"><img src="assets/img/lupa.svg" alt="Lupa"></button>
           <!-- outra opção seria: <label for="aqui-input" style="color: white;">Button</label> -->
           <input id="first-input" type="text" placeholder="Type / to search">
           <div class="arrow">
             <div class="space-bar">
               <div class="vertical-bar">&vert;</div>
-              <button class="right-button"><img src="img/direita.svg" alt=""></button>
+              <button class="right-button"><img src="assets/img/direita.svg" alt=""></button>
             </div>
           </div>
         </div>
@@ -42,13 +44,13 @@
         <div class="vertical-bar">&vert;</div>
 
         <button class="button">
-          <div><img src="img/mais.svg" alt="mais"><img src="img/seta.svg" alt="seta"></div>
+          <div><img src="assets/img/mais.svg" alt="mais"><img src="assets/img/seta.svg" alt="seta"></div>
         </button>
-        <button class="button"><img src="img/Frame.svg" alt="ponto"></button>
-        <button class="button"><img src="img/Pull.svg" alt="pull"></button>
-        <button class="button"><img src="img/caixa.svg" alt="caixa"></button>
+        <button class="button"><img src="assets/img/Frame.svg" alt="ponto"></button>
+        <button class="button"><img src="assets/img/Pull.svg" alt="pull"></button>
+        <button class="button"><img src="assets/img/caixa.svg" alt="caixa"></button>
 
-        <button class="user"><img src="img/foto.png" alt="user"></button>
+        <button class="user"><img src="assets/img/foto.png" alt="user"></button>
       </div>
     </div>
 
@@ -57,31 +59,31 @@
     <div class="second">
       <nav>
         <ul>
-          <li class="space"><a href="#"><img src="img/Vector (1).svg" alt="seta">
+          <li class="space"><a href="#"><img src="assets/img/Vector (1).svg" alt="seta">
               <p><strong>Code</strong></p>
             </a></li>
-          <li class="space"><a href="#"><img src="img/Frame.svg" alt="seta">
+          <li class="space"><a href="#"><img src="assets/img/Frame.svg" alt="seta">
               <p>Issues</p>
             </a></li>
-          <li class="space"><a href="#"><img src="img/Pull.svg" alt="seta">
+          <li class="space"><a href="#"><img src="assets/img/Pull.svg" alt="seta">
               <p>Pull requests</p>
             </a></li>
-          <li class="space"><a href="#"><img src="img/Actions.svg" alt="seta">
+          <li class="space"><a href="#"><img src="assets/img/Actions.svg" alt="seta">
               <p>Actions</p>
             </a></li>
-          <li class="space"><a href="#"> <img src="img/Projects.svg" alt="seta">
+          <li class="space"><a href="#"> <img src="assets/img/Projects.svg" alt="seta">
               <p>Projects</p>
             </a></li>
-          <li class="space"><a href="#"><img src="img/Wiki.svg" alt="seta">
+          <li class="space"><a href="#"><img src="assets/img/Wiki.svg" alt="seta">
               <p>Wiki</p>
             </a></li>
-          <li class="space"><a href="#"><img src="img/Security.svg" alt="seta">
+          <li class="space"><a href="#"><img src="assets/img/Security.svg" alt="seta">
               <p>Security</p>
             </a></li>
-          <li class="space"><a href="#"><img src="img/Insights.svg" alt="seta">
+          <li class="space"><a href="#"><img src="assets/img/Insights.svg" alt="seta">
               <p>Insights</p>
             </a></li>
-          <li class="space"><a href="#"><img src="img/Settings.svg" alt="seta">
+          <li class="space"><a href="#"><img src="assets/img/Settings.svg" alt="seta">
               <p>Settings</p>
             </a></li>
         </ul>
@@ -92,39 +94,116 @@
   <main>
 
 
+
+    <div class="main-one">
+      <div class="user-main">
+        <img src="assets/img/foto.png" alt="foto">
+        <h1><a href="#">livraria</a></h1>
+        <p>public</p>
+      </div>
+
+
+
+      <div class="main-two">
+        <div class="button-main">
+          <button><img src="assets/img/pin.svg" alt="pin">Pin</button>
+          <button><img src="assets/img/eye.svg" alt="ver">Unwatch <span>1</span> <img src="assets/img/seta.svg"
+              alt="seta"></button>
+        </div>
+
+        <div class="button-together">
+          <button disabled class="button-left"><img src="assets/img/symbol.svg" alt="symblo">Fork</button>
+          <button class="button-right"><img src="assets/img/seta.svg" alt=""></button>
+        </div>
+
+        <div class="button-together">
+          <button class="button-left"><img src="assets/img/star.svg" alt="star">Star <span>0</span></button>
+          <button class="button-right"><img src="assets/img/seta.svg" alt=""></button>
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="button-center">
+
+      <div class="main-one-button">
+        <button><img src="assets/img/main.svg" alt="main">main</button>seta aqui
+        <button><img src="assets/img/main.svg" alt="branch"><strong>1</strong> Branch</button>
+        <button><img src="assets/img/main.svg" alt="Tags"><strong>0</strong> Tags</button>
+      </div>
+
+      <div class="main-two-button">
+        <input type="text">
+
+        <button>Add file seta</button>
+        <button> "> Code seta</button>
+      </div>
+
+    </div>
+
+
+
+
+
+
+    <div class="main-table">
+      <p><strong>livraria</strong></p>
+      <p>public</p>
+
+      <table>
+
+        <tr>
+          <th><img src="assets/img/file.svg" alt="foto aqui"></th>
+          <!-- <th class="user"><img src="img/foto.png" alt="">AnaKellys</th> -->
+          <th><a href="#">update</a></th>
+          <th><a href="#">43f2c7d</a></th>
+          <th>.</th>
+          <th><button><img src="assets/img/time.svg" alt="tempo">4 Commits</button></th>
+        </tr>
+
+        <tr>
+          <td><img src="assets/img/file.svg" alt="arquivo">Local</td>
+          <td><a href="#">first commit</a></td>
+          <td>2 weeks ago</td>
+        </tr>
+
+        <tr>
+          <td><img src="assets/img/file.svg" alt="arquivo">img</td>
+          <td><a href="#">first commit</a></td>
+          <td>2 weeks ago</td>
+        </tr>
+
+        <tr>
+          <td><img src="assets/img/document.svg" alt="documento">index.html</td>
+          <td><a href="#">update</a></td>
+          <td>5 days ago</td>
+        </tr>
+
+        <tr>
+          <td><img src="assets/img/document.svg" alt="documento">style.css</td>
+          <td><a href="#">first commit</a></td>
+          <td>2 weeks ago</td>
+        </tr>
+
+        <th><button><img src="assets/img/Wiki.svg" alt="ler">README</button></th>
+        <td><img src="assets/img/Wiki.svg" alt="ler"></td>
+        <td>
+          <h1>Add a README</h1>
+        </td>
+        <td>
+          <p>Help people interested in this repository understand your project by adding a README.</p>
+        </td>
+        <td><button>Add a README</button></td>
+      </table>
+    </div>
+
   </main>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <footer>
-    <img id="min" src="img/github.svg" alt="Logo">
+    <img id="min" src="assets/img/github.svg" alt="Logo">
     <p>c 2024 GitHub, Inc.</p>
     <a href="https://docs.github.com/en/site-policy/github-terms/github-terms-of-service">Terms</a>
     <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">Privacy</a>
