@@ -11,8 +11,9 @@
   <link rel="stylesheet" href="assets/styles/style.css">
   <link rel="stylesheet" href="assets/styles/header.css">
   <link rel="stylesheet" href="assets/styles/main.css">
-  <!-- link direita -->
+  <link rel="stylesheet" href="assets/styles/tabela.css">
   <link rel="stylesheet" href="assets/styles/footer.css">
+  <link rel="stylesheet" href="assets/styles/containers.css">
 
 </head>
 
@@ -91,7 +92,7 @@
     </div>
   </header>
 
-  <main>
+  <main class="container">
 
     <div class="main-one">
       <div class="user-main">
@@ -99,8 +100,6 @@
         <h1><a href="#">livraria</a></h1>
         <p>public</p>
       </div>
-
-
 
       <div class="main-two">
         <button class="button-main pin"><img src="assets/img/pin.svg" alt="pin">Pin</button>
@@ -119,94 +118,92 @@
         </div>
       </div>
 
-
     </div>
 
-    <div class="button-center">
 
+
+
+
+
+
+    <div class="main-three">
       <div class="main-one-button">
-        <button class="single" ><img src="assets/img/main.svg" alt="main">main<img src="assets/img/seta.svg" alt=""></button>
+        <button class="single"><img src="assets/img/main.svg" alt="main">main<img src="assets/img/seta.svg"
+            alt=""></button>
         <button><img src="assets/img/main.svg" alt="branch"><span>1</span>Branch</button>
         <button><img src="assets/img/tag.svg" alt="Tags"><span>0</span> Tags</button>
       </div>
 
-
-
-
-      <div class="main-input">
+      <div class="container-action">
+        <div class="main-input">
           <button class="search-main"><img src="assets/img/lupa.svg" alt="Lupa"></button>
           <input class="input" type="text" placeholder="Go to file">
+        </div>
 
-          <div class="arrow">
-            <div class="space-bar">
-              <button class="right-button">t</button>
-            </div>
-          </div>
-    
+        <div class="button-add">
+          <button class="add-button">Add file<img src="assets/img/seta.svg" alt="seta"></button>
+          <button class="add-button" id="green"><img id="maior" src="assets/image/maior-menor.svg"
+              alt="maior, meno">Code
+            <img src="assets/image/seta-b.svg" alt="seta"></button>
+        </div>
+      </div>
+    </div>
 
 
-
-        <button>Add file<img src="assets/img/seta.svg" alt="seta"></button>
-        <button> "> Code seta</button>
+    <div class="header">
+      <div>
+        <p><strong>livraria</strong></p>
+        <p>public</p>
       </div>
 
+      <div>
+        <th><img src="assets/img/file.svg" alt="foto aqui"></th>
+        <th><a href="#">update</a></th>
+        <th><a href="#">43f2c7d</a></th>
+      </div>
     </div>
 
+    <table>
+      <!-- <tr> -->
+      <!-- <th class="user"><img src="img/foto.png" alt="">AnaKellys</th> -->
+
+      <!-- <th>.</th>
+        <th><button><img src="assets/img/time.svg" alt="tempo">4 Commits</button></th> -->
+      <!-- </tr> -->
+
+      <tr>
+        <td><img src="assets/img/file.svg" alt="arquivo">Local</td>
+        <td><a href="#">first commit</a></td>
+        <td>2 weeks ago</td>
+      </tr>
+
+      <tr>
+        <td><img src="assets/img/file.svg" alt="arquivo">img</td>
+        <td><a href="#">first commit</a></td>
+        <td>2 weeks ago</td>
+      </tr>
+
+      <tr>
+        <td><img src="assets/img/document.svg" alt="documento">index.html</td>
+        <td><a href="#">update</a></td>
+        <td>5 days ago</td>
+      </tr>
+
+      <tr>
+        <td><img src="assets/img/document.svg" alt="documento">style.css</td>
+        <td><a href="#">first commit</a></td>
+        <td>2 weeks ago</td>
+      </tr>
+    </table>
 
 
-
-
-
-    <div class="main-table">
-      <p><strong>livraria</strong></p>
-      <p>public</p>
-
-      <table>
-
-        <tr>
-          <th><img src="assets/img/file.svg" alt="foto aqui"></th>
-          <!-- <th class="user"><img src="img/foto.png" alt="">AnaKellys</th> -->
-          <th><a href="#">update</a></th>
-          <th><a href="#">43f2c7d</a></th>
-          <th>.</th>
-          <th><button><img src="assets/img/time.svg" alt="tempo">4 Commits</button></th>
-        </tr>
-
-        <tr>
-          <td><img src="assets/img/file.svg" alt="arquivo">Local</td>
-          <td><a href="#">first commit</a></td>
-          <td>2 weeks ago</td>
-        </tr>
-
-        <tr>
-          <td><img src="assets/img/file.svg" alt="arquivo">img</td>
-          <td><a href="#">first commit</a></td>
-          <td>2 weeks ago</td>
-        </tr>
-
-        <tr>
-          <td><img src="assets/img/document.svg" alt="documento">index.html</td>
-          <td><a href="#">update</a></td>
-          <td>5 days ago</td>
-        </tr>
-
-        <tr>
-          <td><img src="assets/img/document.svg" alt="documento">style.css</td>
-          <td><a href="#">first commit</a></td>
-          <td>2 weeks ago</td>
-        </tr>
-
-        <th><button><img src="assets/img/Wiki.svg" alt="ler">README</button></th>
-        <td><img src="assets/img/Wiki.svg" alt="ler"></td>
-        <td>
-          <h1>Add a README</h1>
-        </td>
-        <td>
-          <p>Help people interested in this repository understand your project by adding a README.</p>
-        </td>
-        <td><button>Add a README</button></td>
-      </table>
-    </div>
+    <!-- Outro coteúdo -->
+    <!-- <th><button><img src="assets/img/Wiki.svg" alt="ler">README</button></th>
+    <td><img src="assets/img/Wiki.svg" alt="ler"></td>
+    <td><h1>Add a README</h1></td>
+    <td><p>Help people interested in this repository understand your project by adding a README.</p></td>
+    <td><button>Add a README</button></td> -->
+    <!-- </div> -->
 
   </main>
 

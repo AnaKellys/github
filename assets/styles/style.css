@@ -15,6 +15,7 @@
   --link-color: #4493f8;
   --color: #848d97;
   --option: #c9d1d9;
+  --background-button: #21262d;
 
   --font-family: sans-serif;
 }
@@ -28,6 +29,71 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* table th tr td {
+  border: var(--global-border);
+} */
+
+/* .th { */
+  /* border: var(--global-border); */
+/* } */
+
+
+
+
+/* .main-table {
+
+}
+
+
+.table-one td {
+  display: flex;
+  align-items: center;
+  border: var(--global-border);
+  border-collapse: collapse;
+
+}
+
+.main-table td{
+  padding: 8px;
+  width: 720;
+  /* display: flex; */
+/* }
+
+table {
+
+}
+
+td {
+  align-items: center;
+}
+
+td a {
+  color: gray;
+  text-decoration: none;
+}
+
+td a:hover {
+  color: var(--link-color);
+  text-decoration: underline;
+} */
 
 
 

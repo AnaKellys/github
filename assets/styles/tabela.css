@@ -1,0 +1,19 @@
+table, tr {
+  border: var(--global-border);
+  border-collapse: collapse;
+  border-radius: var(--border-radius);
+  width: 100%;
+  /* margin: 20px; */
+  /* width: 80%; */
+  /* padding: 20px; */
+}
+
+td {
+  padding: 5px 25px;
+  /* text-align: center; */
+}
+
+.header {
+  display: flex;
+  
+}
