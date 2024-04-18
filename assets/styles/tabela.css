@@ -1,15 +1,14 @@
-table,
-tr {
-  border: var(--global-border);
+.table-container tr {
+  border-top: var(--global-border);
   border-radius: var(--border-radius);
-  /* border-collapse: collapse; */
+  border-collapse: collapse;
   width: 100%;
 }
 
 
-.table-container {
+.table-container{
+  border: 0.1px solid var(--border-color);
   border-radius: var(--border-radius);
-  overflow: hidden;
 }
 
 table {
@@ -45,7 +44,7 @@ td {
   cursor: pointer;
 }
 
-table tr:hover {
+.table-container tr:hover {
   background-color: #161B22;
 }
 
@@ -67,11 +66,11 @@ table tr:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: var(--global-border);
+  /* border: var(--global-border); */
   border-radius: 7px 7px 0 0;
   background-color: #161B22;
   padding: 0.9rem;
-  border-bottom: none;
+  /* border-bottom: none; */
 }
 
 .group-one-header {
@@ -159,6 +158,93 @@ a {
 
 
 
-.table-container-two {
-  width: 75%;
+
+
+.tables-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
 }
+
+
+/* .table-container tr {
+  border-top: var(--global-border);
+  border-radius: var(--border-radius);
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+.table-container{
+  border: 0.1px solid var(--border-color);
+  border-radius: var(--border-radius);
+} */
+
+
+
+.readme-container {
+  border: var(--global-border);
+  border-radius: var(--border-radius);
+}
+
+.table-two-button {
+border-bottom: var(--global-border);
+padding: 0.7rem;
+}
+
+.table-two-button button{
+  padding: 0.6rem 0.8rem;
+  color: #FFFFFF;
+  gap: 0.9rem;
+  align-items: center;
+}
+
+.table-two-button button:hover {
+  background-color: var(--background-button);
+  border-radius: calc(var(--border-radius));
+  cursor: pointer;
+}
+
+.table-two-button button span {
+  font-weight: bold;
+}
+
+
+.table-three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  padding: 3.2rem 1.6rem;
+}
+
+.wiki {
+  width: 3.2rem;
+  align-items: center;
+}
+
+.table-three h1 {
+  margin-top: 1.0rem;
+  font-size: 2.4rem;
+}
+
+.table-three p {
+  color: var(--color);
+  font-size: 1.2rem;
+  margin-bottom: 3.2rem;
+}
+
+.table-three button{
+  color: #FFFFFF;
+  border: 1px solid #238636;
+  background-color: #238636;
+  border-radius: calc(var(--border-radius) - 2px);
+  padding: 0.8rem 1.2rem;
+}
+
+.table-three button:hover {
+  background-color: #3dbb56b6;
+  cursor: pointer;
+}
+
