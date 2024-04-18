@@ -70,7 +70,8 @@ h1 a:hover {
   background-color: #292e36;
 }
 
-.button-left:disabled, .button-left:disabled:hover {
+.button-left:disabled,
+.button-left:disabled:hover {
   color: var(--color);
   background-color: var(--background-button);
   cursor: default;
@@ -99,7 +100,7 @@ h1 a:hover {
   font-size: 1.2rem;
 }
 
-.pin{
+.pin {
   padding: 0.5rem 1.5rem;
 }
 
@@ -130,18 +131,6 @@ h1 a:hover {
   background-color: #30363d;
 
 }
-
-
-/* <div class="border-bottom  mx-xl-5 "></div> */
-
-
-
-
-/* .user {
-  width: 16px;
-  border-radius: 50%;
-
-} */
 
 
 .container-action {
@@ -195,6 +184,10 @@ h1 a:hover {
   border: var(--global-border);
 }
 
+.single:hover {
+  /* background-color: red; */
+}
+
 .main-one-button span {
   color: white;
   font-weight: bold;
@@ -211,46 +204,15 @@ h1 a:hover {
   color: #FFFFFF;
 }
 
-/* .main */
-
-
-
-
-
-
-
-
-
-
-
-
-/* Aqui teste */
+#green:hover {
+  background-color: #33a84ab6;
+}
 
 .main-input {
   /* padding: 0.8rem 0 1.6rem; */
   margin: 1.6rem;
-  
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .main-input {
@@ -301,6 +263,10 @@ h1 a:hover {
   border-radius: var(--border-radius);
   background-color: var(--background-button);
   padding: 7px 13px;
+}
+
+.add-button:hover {
+  background-color: #292e36;
 }
 
 #maior {

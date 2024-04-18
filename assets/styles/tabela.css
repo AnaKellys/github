@@ -1,19 +1,164 @@
-table, tr {
+table,
+tr {
   border: var(--global-border);
-  border-collapse: collapse;
   border-radius: var(--border-radius);
+  /* border-collapse: collapse; */
   width: 100%;
-  /* margin: 20px; */
-  /* width: 80%; */
-  /* padding: 20px; */
+}
+
+
+.table-container {
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
 }
 
 td {
-  padding: 5px 25px;
+  padding: 1.2rem 1.6rem;
   /* text-align: center; */
 }
 
-.header {
+.container-one {
+  width: 100%;
+}
+
+.container-two {
+  width: 75%;
+  margin-bottom: 1.6rem;
+}
+
+.td-start {
   display: flex;
-  
+  text-align: center;
+  gap: 1.0rem;
+  color: var(--color-one);
+}
+
+.td-start p:hover {
+  color: var(--link-color);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+table tr:hover {
+  background-color: #161B22;
+}
+
+.td-center a:hover {
+  color: var(--link-color);
+  text-decoration: underline
+}
+
+
+.td-end {
+  text-align: end;
+  color: var(--color);
+}
+
+
+/* tabela 2 */
+
+.header-table {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: var(--global-border);
+  border-radius: 7px 7px 0 0;
+  background-color: #161B22;
+  padding: 0.9rem;
+  border-bottom: none;
+}
+
+.group-one-header {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.user-table {
+  width: 2.0rem;
+  border-radius: 50%;
+}
+
+.group-one-header img {
+  padding: 0.6rem;
+  cursor: pointer;
+}
+
+#certo:hover {
+  background-color: #0d1117;
+  border-radius: var(--border-radius);
+}
+
+.group-one-header p span a {
+  color: #FFFFFF;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.group-one-header p span a:hover {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+.group-one-header p a {
+  text-decoration: none;
+}
+
+.group-one-header p a:hover {
+  color: var(--link-color);
+  text-decoration: underline;
+}
+
+p {
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
+.group-two-header {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 1.2rem;
+}
+
+.group-two-header p,
+a {
+  color: var(--color);
+  text-decoration: none;
+}
+
+.group-two-header a:hover {
+  color: var(--link-color);
+  text-decoration: underline;
+}
+
+.group-two-header button {
+  color: #FFFFFF;
+  gap: 0.5rem;
+  padding: 7px 8px;
+  margin: 0 2px;
+}
+
+.group-two-header button:hover {
+  background-color: var(--background-button);
+  border-radius: calc(var(--border-radius) - 2px);
+}
+
+/* #ponto {
+  width: 1px;
+} */
+
+
+
+.table-container-two {
+  width: 75%;
 }
