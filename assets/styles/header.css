@@ -73,7 +73,7 @@ header {
 
 #first-input {
   background-color: #00000000;
-  color: white;
+  color: var(--color-one);
   border: none;
   padding: 0 5px;
 }
