@@ -8,20 +8,11 @@ main {
 }
 
 
-/* main {
-  margin: 0 3.5rem;
-  padding: 0 3.2rem;
-} */
-
 .main-one {
   display: flex;
   align-items: center;
   justify-content: space-between;
   border-bottom: var(--global-border);
-
-
-  /* box-sizing: border-box; */
-
 }
 
 .user-main {
@@ -55,6 +46,12 @@ h1 a:hover {
   line-height: 1.5rem;
 }
 
+.main-two {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
 .button-main {
   border: var(--global-border);
   background-color: var(--background-button);
@@ -68,6 +65,24 @@ h1 a:hover {
 
 .button-main:hover {
   background-color: #292e36;
+}
+
+.pin {
+  padding: 0.5rem 1.5rem;
+}
+
+.main-two span {
+  padding: 2px;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  border: white;
+  background-color: #30363d;
+}
+
+.button-together {
+  display: flex;
+  font-size: 1.2rem;
 }
 
 .button-left:disabled,
@@ -95,15 +110,6 @@ h1 a:hover {
   background-color: #292e36;
 }
 
-.button-together {
-  display: flex;
-  font-size: 1.2rem;
-}
-
-.pin {
-  padding: 0.5rem 1.5rem;
-}
-
 .button-right {
   border-bottom-right-radius: var(--border-radius);
   border-top-right-radius: var(--border-radius);
@@ -114,31 +120,10 @@ h1 a:hover {
   border-top-left-radius: var(--border-radius);
 }
 
-.main-two {
-  display: flex;
-  align-items: center;
-  gap: 0.8rem;
-}
-
-
-
-.main-two span {
-  padding: 2px;
-  width: 15px;
-  height: 15px;
-  border-radius: 100%;
-  border: white;
-  background-color: #30363d;
-
-}
-
-
 .container-action {
   display: flex;
   align-items: center;
 }
-
-
 
 .space-between {
   display: flex;

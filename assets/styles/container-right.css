@@ -199,6 +199,11 @@ h2 {
   margin-bottom: 0.8rem;
 }
 
+.space-block {
+  display: flex;
+  align-items: center;
+}
+
 .block-flex img {
   width: 100%;
   height: 100%;
