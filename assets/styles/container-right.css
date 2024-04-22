@@ -189,7 +189,7 @@ h2 {
 .container-three p {
   color: var(--color);
   font-size: 1.4rem;
-  margin-bottom: 1.6rem;
+  margin-bottom: 0.6rem;
 }
 
 .block-one {
@@ -199,13 +199,22 @@ h2 {
   margin-bottom: 0.8rem;
 }
 
-.block-one img {
-  width: 3.2rem;
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: center; */
+.block-flex img {
+  width: 100%;
+  height: 100%;
+}
+
+.img-block {
   background-color: #FFFFFF;
+  padding: 0.8rem;
+  width: 1.9rem;
   border-radius: 50%;
+}
+
+.img-block img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .block-flex {

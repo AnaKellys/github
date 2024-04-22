@@ -13,8 +13,8 @@
   <link rel="stylesheet" href="assets/styles/main.css">
   <link rel="stylesheet" href="assets/styles/tabela.css">
   <link rel="stylesheet" href="assets/styles/footer.css">
-  <link rel="stylesheet" href="assets/styles/containers.css">
   <link rel="stylesheet" href="assets/styles/container-right.css">
+  <link rel="stylesheet" href="assets/styles/containers.css">
 
 </head>
 
@@ -79,13 +79,13 @@
           <li class="space"><a href="#"><img src="assets/img/Wiki.svg" alt="seta">
               <p>Wiki</p>
             </a></li>
-          <li class="space"><a href="#"><img src="assets/img/Security.svg" alt="seta">
+          <li class="space none-five"><a href="#"><img src="assets/img/Security.svg" alt="seta">
               <p>Security</p>
             </a></li>
-          <li class="space"><a href="#"><img src="assets/img/Insights.svg" alt="seta">
+          <li class="space none-four"><a href="#"><img src="assets/img/Insights.svg" alt="seta">
               <p>Insights</p>
             </a></li>
-          <li class="space"><a href="#"><img src="assets/img/Settings.svg" alt="seta">
+          <li class="space none-three"><a href="#"><img src="assets/img/Settings.svg" alt="seta">
               <p>Settings</p>
             </a></li>
         </ul>
@@ -132,8 +132,12 @@
           <div class="main-one-button">
             <button class="single"><img src="assets/img/main.svg" alt="main">main<img src="assets/img/seta.svg"
                 alt=""></button>
-            <button><img src="assets/img/main.svg" alt="branch"><span>1</span>Branch</button>
-            <button><img src="assets/img/tag.svg" alt="Tags"><span>0</span> Tags</button>
+            <button class="none-two"><img src="assets/img/main.svg" alt="branch"><span>1</span>
+              <p>Branch</p>
+            </button>
+            <button class="none-two"><img src="assets/img/tag.svg" alt="Tags"><span>0</span>
+              <p>Tags</p>
+            </button>
           </div>
 
           <div class="container-action">
@@ -143,7 +147,7 @@
             </div>
 
             <div class="button-add">
-              <button class="add-button">Add file<img src="assets/img/seta.svg" alt="seta"></button>
+              <button class="add-button none-one">Add file<img src="assets/img/seta.svg" alt="seta"></button>
               <button class="add-button" id="green"><img id="maior" src="assets/image/maior-menor.svg"
                   alt="maior, meno">Code
                 <img src="assets/image/seta-b.svg" alt="seta"></button>
@@ -284,7 +288,7 @@
           <div class="points">
             <img class="img-point" src="assets/image/point-2.svg" alt="point purple">
             <p class="a"><span class="a">HTML</span>56.0%</p>
-            <img class="img-point" src="assets/image/point-2.svg" alt="point orange">
+            <img class="img-point" src="assets/image/point.svg" alt="point orange">
             <p class="a"><span class="a">CSS</span>44.0%</p>
           </div>
         </div>
@@ -295,15 +299,14 @@
           <p>Based on your tech stack</p>
         </div>
 
-
-
-
-
-
         <div class="block-one">
           <div class="block-flex">
-            <img src="assets/image/image-2.svg" alt="logo">
-            <h1>SLSA Generic generator</h1>
+            <div class="space-block">
+              <div class="img-block">
+                <img src="assets/image/image-2.svg" alt="logo">
+              </div>
+              <h1>SLSA Generic generator</h1>
+            </div>
             <button>Configure</button>
           </div>
           <div class="block-p">
@@ -311,12 +314,17 @@
           </div>
         </div>
 
-
         <div class="block-one">
           <div class="block-flex">
-            <img src="assets/image/image.svg" alt="logo">
-            <h1>Jekyll using Docker image</h1>
+            <div class="space-block">
+              <div class="img-block">
+                <img src="assets/image/image.svg" alt="logo">
+              </div>
+              <h1>Jekyll using Docker image</h1>
+            </div>
             <button>Configure</button>
+
+
           </div>
           <div class="block-p">
             <p>Package a Jekyll site using the jekyll/builder Docker image.</p>
@@ -332,29 +340,25 @@
           </div>
         </div>
 
-
-
       </div>
   </main>
 
 
-
-
-
-
-
   <footer>
-    <img id="min" src="assets/img/github.svg" alt="Logo">
-    <p>c 2024 GitHub, Inc.</p>
-    <a
-      href="https://docs.github.com/en/site-policy/github-terms/github-terms-of-service">Terms</a>class="CircleBadge-icon
-    <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">Privacy</a>
-    <a href="https://github.com/security">Security</a>
-    <a href="https://www.githubstatus.com/">Status</a>
-    <a href="https://docs.github.com/en">Docs</a>
-    <a href="https://support.github.com/?tags=dotcom-footer">Contact</a>
-    <a href="#">Manage cookies</a>
-    <a href="#">Do not share my personal information</a>
+    <div class="footer">
+      <img id="min" src="assets/img/github.svg" alt="Logo">
+      <p>© 2024 GitHub, Inc.</p>
+    </div>
+    <div class="footer-a">
+      <a href="https://docs.github.com/en/site-policy/github-terms/github-terms-of-service">Terms</a>
+      <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">Privacy</a>
+      <a href="https://github.com/security">Security</a>
+      <a href="https://www.githubstatus.com/">Status</a>
+      <a href="https://docs.github.com/en">Docs</a>
+      <a href="https://support.github.com/?tags=dotcom-footer">Contact</a>
+      <a href="#">Manage cookies</a>
+      <a href="#">Do not share my personal information</a>
+    </div>
   </footer>
 
 
